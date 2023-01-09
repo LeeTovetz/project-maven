@@ -2,7 +2,8 @@
 
 **Mini-project 01 on the topic: Maven by JavaRush University.**<br>
 
- Task: You need to make an executable JAR file with the game in JavaFX through the graphics engine from JavaRush.<br>
+ Task: You need to make an executable JAR file with the game <br>
+ in JavaFX through the graphics engine from JavaRush.<br>
  
 To do this:<br>
 - Make a fork from the repository; 
