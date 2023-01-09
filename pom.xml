@@ -11,10 +11,34 @@
     <properties>
         <maven.compiler.source>18</maven.compiler.source>
         <maven.compiler.target>18</maven.compiler.target>
+        <commons-lang3.version>3.12.0</commons-lang3.version>
+        <javafx-controls.version>18.0.1</javafx-controls.version>
+        <desktop-game-engine.version>1.0</desktop-game-engine.version>
+        <junit-jupiter-engine.version>5.8.2</junit-jupiter-engine.version>
     </properties>
 
     <dependencies>
-
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>${commons-lang3.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-controls</artifactId>
+            <version>${javafx-controls.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.javarush</groupId>
+            <artifactId>desktop-game-engine</artifactId>
+            <version>${desktop-game-engine.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-engine</artifactId>
+            <version>${junit-jupiter-engine.version}</version>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
 
     <build>
