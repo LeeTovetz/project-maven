@@ -1,6 +1,6 @@
 # project-maven
 
-**Mini-project 01 on the topic: Maven by JavaRush University.**<br>
+<a href="https://github.com/LeeTovetz/JRU-JavaProfessional" >**Mini-project 01 on the topic: Maven by JavaRush University.**</a><br>
 
  Task: You need to make an executable JAR file with the game <br>
  in JavaFX through the graphics engine from JavaRush.<br>
